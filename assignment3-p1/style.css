@@ -32,7 +32,7 @@
     text-decoration: none;
     color: green;
   }
-  ul { /* adding border as mentioned    padding size was optional*/
+  ul { /* adding a border as mentioned*/
     border: 5px solid #813380;
     background: #EEEEEE;
     padding: 20px;
