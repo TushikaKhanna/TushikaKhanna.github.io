@@ -1,0 +1,42 @@
+/*	
+    File: index.html
+	Date: 18 June 2024
+	assignment3-p2
+    description: creating a cool, fancy box and explore the fun we can have with CSS.
+*/
+
+html {
+    font-family: sans-serif; 
+}
+
+body {
+    display: grid;
+    place-items: center;
+}
+
+.box {
+    /* Base Styling */
+    width: 200px; 
+    height: 200px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    display: flex;
+
+    /* Text and Content Alignment */
+    justify-content: center; 
+    place-items: center; 
+
+    /* Color, Border, and Background */
+    color: white;
+    border-radius: 17px;
+    background: red linear-gradient(to bottom right, 
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.2) 30%,
+        rgba(0, 0, 0, 0.2));
+
+    /* Box Shadow Effects */
+    box-shadow: 
+        2px 2px 5px rgba(0, 0, 0, 0.3),  /* Outer shadow */
+        inset 5px 5px 10px rgba(255, 255, 255, 0.5), /* Inner white highlight */
+        inset -5px -5px 10px rgba(0, 0, 0, 0.5);    /* Inner dark shadow */
+}
