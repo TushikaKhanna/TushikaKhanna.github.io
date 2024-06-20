@@ -1,0 +1,96 @@
+/**
+ Name: Tushika Khanna 
+	File: style.css
+	Date: 20 June 2024
+	assignment3-p3
+**/
+
+* 
+{
+    box-sizing: border-box;
+}
+
+body 
+{
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family: "Wide", serif;
+}
+
+
+
+section 
+{
+    float: left;
+    width: 50%;
+}
+
+aside 
+{
+    float: left;
+    width: 30%;
+}
+
+nav 
+{
+    float: left;
+    width: 20%;
+}
+
+footer 
+{
+    clear: both;
+}
+
+header, section, aside, nav, footer 
+{
+    padding: 20px;
+    font-family: Rockwell Extra Bold, Rockwell Bold, monospace;
+
+}
+
+
+
+header, footer 
+{
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+    text-align: center;
+}
+
+
+nav ul 
+{
+    text-decoration: none;
+    color: red;
+    text-align: center;
+}
+
+nav li 
+{
+    text-decoration: none;
+    list-style: none;
+    border: 2px solid #c09695;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+nav a 
+{
+
+    text-decoration: none;
+    color: #c29997;
+}
+
+a 
+{
+    font-family: "Times New Roman", Times, serif;
+    color: #c5a0a0;
+
+}
+
+section img 
+{
+    width: 15px;
+}
