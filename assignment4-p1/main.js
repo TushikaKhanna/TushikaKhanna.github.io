@@ -1,3 +1,10 @@
+/*
+ Name: Tushika Khanna
+ File: main.js
+ Date: 8/2/2024
+ Assignment 4 part1
+ */ 
+
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
