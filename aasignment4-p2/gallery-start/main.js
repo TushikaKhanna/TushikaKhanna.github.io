@@ -1,4 +1,12 @@
-const displayedImage = document.querySelector('.displayed-img');
+/* 
+ Name: Tushika Khanna
+ File Name: main.js
+ Date: 8/2/2024
+ assignment4 part2
+
+ */
+
+ const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
 const btn = document.querySelector('button');
