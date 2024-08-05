@@ -1,3 +1,10 @@
+/*
+Name: Tushika Khanna
+file: main.js
+assignment4 part2
+*/
+
+
 const displayedImage = document.querySelector('.displayed-img');
 const thumbBar = document.querySelector('.thumb-bar');
 
