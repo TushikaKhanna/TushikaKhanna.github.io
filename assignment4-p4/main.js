@@ -1,3 +1,10 @@
+/*
+
+name: Tushika Khanna
+file: main.js
+assignment4 part 4
+*/
+
 
 // setup canvas
 const para = document.querySelector('p');
